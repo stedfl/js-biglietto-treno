@@ -1,7 +1,6 @@
-const userKm = 10;
-const userAge = 30;
-// const userKm = parseInt(prompt("Quanti km vuoi percorrere?"));
-// const userAge = parseInt(prompt("Quanti anni hai?"))
+
+const userKm = parseInt(prompt("Quanti km vuoi percorrere?"));
+const userAge = parseInt(prompt("Quanti anni hai?"))
 const priceForKm = 0.21;
 const totalPrice = userKm * priceForKm;
 let discount;
