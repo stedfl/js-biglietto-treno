@@ -10,10 +10,10 @@ let visualDiscount;
 
 if (userAge >= 65) {
   discount = 0.4;
-  visualDiscount = `Essendo tu non più giovanissimo, hai diritto ad uno sconto del 40%.`;
+  visualDiscount = `Essendo tu non più giovanissimo, hai diritto ad uno sconto del <span class=bg-success>40%</span>.`;
 }  else if (userAge <= 17) {
   discount = 0.2;
-  visualDiscount = `Essendo tu molto giovane, hai diritto ad uno sconto del 20%.`;
+  visualDiscount = `Essendo tu molto giovane, hai diritto ad uno sconto del <span class=bg-success>20%</span>.`;
 } else {
   discount = 0; 
   visualDiscount = "";
@@ -28,7 +28,7 @@ Ciao, oggi hai scelto di percorrere ${userKm}Km per raggiungere il posto dei tuo
 `;
 
 const output = `
-In base alla tua età e ai chilometri che vuoi percorrere, il prezzo del biglietto è di ${finalPriceRounded}€. 
+In base alla tua età e ai chilometri che vuoi percorrere, il prezzo del biglietto è di <strong>${finalPriceRounded}€</strong>. 
 ` ;
 
 document.getElementById("hello").innerHTML = age;
