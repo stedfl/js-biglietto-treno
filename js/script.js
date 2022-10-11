@@ -10,7 +10,7 @@ let visualDiscount;
 
 if (userAge >= 65) {
   discount = 0.4;
-  visualDiscount = `Essendo tu non più giovanissimo, hai diritto ad uno sconto del 40%`;
+  visualDiscount = `Essendo tu non più giovanissimo, hai diritto ad uno sconto del 40%.`;
 }  else if (userAge <= 17) {
   discount = 0.2;
   visualDiscount = `Essendo tu molto giovane, hai diritto ad uno sconto del 20%.`;
